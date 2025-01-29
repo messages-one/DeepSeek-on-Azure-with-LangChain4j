@@ -29,7 +29,7 @@ public class DemoIntegrationTests {
     public static ComposeContainer environment =
             new ComposeContainer(new File("src/test/resources/docker-compose-test.yml"))
                     .withExposedService("qdrant-1",  6334, Wait.forListeningPort())
-                    .waitingFor("ollama-1", Wait.forSuccessfulCommand("ollama pull deepseek-r1"));
+                    .waitingFor("ollama-1", Wait.forSuccessfulCommand("ollama pull deepseek-r1:14b"));
 
     @Autowired
     private MockMvc mockMvc;

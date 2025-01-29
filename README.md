@@ -63,7 +63,7 @@ ollama serve
 Install deepseek-r1 from Ollama, available at https://ollama.com/library/deepseek-r1 by typing:
 
 ```bash
-ollama pull deepseek-r1
+ollama pull deepseek-r1:14b
 ```
 
 ### Run Qdrant locally
