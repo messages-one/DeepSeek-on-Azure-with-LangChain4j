@@ -45,15 +45,4 @@ public class DemoIntegrationTests {
         this.mockMvc.perform(get("/1")).andDo(print()).andExpect(status().isOk())
                 .andExpect(content().string(containsString("Leonardo da Vinci")));
     }
-
-    @Test
-    void easyRag() throws Exception {
-        // Ingest data
-        this.mockMvc.perform(get("/6")).andDo(print()).andExpect(status().isOk())
-                .andExpect(content().string(containsString("OK")));
-
-        // Query data
-        this.mockMvc.perform(get("/7")).andDo(print()).andExpect(status().isOk())
-                .andExpect(content().string(containsString("120,000")));
-    }
 }
