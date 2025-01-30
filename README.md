@@ -83,3 +83,7 @@ Once the resources (local or GitHub Models) are configured, you can run the demo
 Then you can access the base URL, where you find the Web UI: [http://localhost:8080/](http://localhost:8080/).
 
 The demos are available in the top menu.
+
+## Related samples
+
+- [DeepSeek on Azure - JavaScript demos](https://github.com/Azure-Samples/deepseek-azure-javascript)
