@@ -2,6 +2,8 @@
 
 _Author: [Julien Dubois](https://www.julien-dubois.com)_
 
+read the blog for this code at https://devblogs.microsoft.com/java/deepseek-r1-on-azure-with-langchain4j-demo/
+
 ## Introduction
 
 DeepSeek-R1 has been announced on [GitHub Models](https://github.blog/changelog/2025-01-29-deepseek-r1-is-now-available-in-github-models-public-preview/)
